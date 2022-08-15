@@ -8,6 +8,7 @@ let tasks = [];
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
+app.use(express.static("public"));
 
 app.get("/", function(req, res){
 
@@ -16,8 +17,7 @@ app.get("/", function(req, res){
   options = {
     weekday: "long",
     day: "numeric",
-    month: "long",
-    year: "numeric"
+    month: "long"
   }
 
   day = today.toLocaleDateString("en-US", options);
