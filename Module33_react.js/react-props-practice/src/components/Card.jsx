@@ -7,6 +7,7 @@ function Card(props){
         <div>
             <div className="card">
                 <div className="top">
+                    <p className="info">{props.number}</p>
                     <h2 className="name">{props.name}</h2>
                     <Avatar img={props.img}/>
                 </div>
