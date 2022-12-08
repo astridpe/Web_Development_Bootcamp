@@ -7,3 +7,5 @@ mongodb.txt
 node_modules/
 jspm_packages/
 npm-debug.log
+package-lock.json
+package.json
