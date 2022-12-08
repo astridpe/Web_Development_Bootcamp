@@ -14,6 +14,7 @@ function handleClick() {
   setItems(prevItems => {
     return [...prevItems, inputText]
   });
+  setInputText("");
 }
   return (
     <div className="container">
