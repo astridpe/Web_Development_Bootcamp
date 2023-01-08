@@ -8,6 +8,7 @@ html {
 }
 body {
   background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   padding: 0 16px;
 }
 
@@ -60,6 +61,7 @@ footer p {
   float: right;
   margin-right: 10px;
   color: #f5ba13;
+  background-color: #fff;
   border: none;
   width: 36px;
   height: 36px;
