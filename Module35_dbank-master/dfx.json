@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "Module35_dbank": {
+      "main": "src/Module35_dbank/main.mo",
+      "type": "motoko"
+    },
+    "Module35_dbank_assets": {
+      "dependencies": [
+        "Module35_dbank"
+      ],
+      "frontend": {
+        "entrypoint": "src/Module35_dbank_assets/src/index.html"
+      },
+      "source": [
+        "src/Module35_dbank_assets/assets",
+        "dist/Module35_dbank_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
